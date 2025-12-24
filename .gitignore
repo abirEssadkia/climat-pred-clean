@@ -1,0 +1,20 @@
+# Fichiers volumineux - Ne pas pousser sur GitHub
+backend/data/*.nc
+backend/data/*.pkl
+backend/Data/*.nc
+backend/Data/*.pkl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+backend/db.sqlite3
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/bun.lockb
+
+# IDE
+.vscode/
+.idea/
